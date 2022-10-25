@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    #Name {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; 
+  border-right: .15em solid rgb(255, 255, 255); 
+  white-space: nowrap; 
+  /* margin: 0 auto; Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 2.5s steps(10, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+
+#Names {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; 
+  border-right: .15em solid rgb(255, 255, 255); 
+  white-space: nowrap; 
+  /* margin: 0 auto; Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 6.5s steps(10, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+
+
+
+#leo
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 25px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+    </style>
+    <title>Name</title>
+</head>
+<body>
+    <nav class="bg-gray-800">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div class="relative flex h-16 items-center justify-between">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <button type="button" class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <div class="hidden sm:ml-6 sm:block">
+                <div class="flex space-x-4">
+                  <a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Name</a>
+      
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Github</a>
+      
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+      
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                </div>
+              </div>
+            </div>
+           
+              </button>
+      
+      </nav>
+
+    <div class="main bg-gray-700 h-90 px-7 py-30">
+            <div class="pt-20">
+                <div class="container px-1 mx-10 flex flex-wrap flex-col md:flex-row items-center">
+                  <div class="flex flex-col w-full md:w-2/4 justify-center items-start text-center md:text-left">
+                    <h1 class="my-2 text-5xl font-bold leading-tight text-white font-bold" id="Name">Hey ! There,</h1>
+                    <h1 class="my-2 text-5xl font-bold leading-tight text-white font-bold" id="Names">Name Is Here ..</h1>
+
+
+                    <p class="uppercase tracking-loose w-full" id="leo"><span class="text-yellow-400">Programmer</span> | <span class="text-white">Artist</span> | <span class="text-red-600">Youtuber</span></p>
+                    <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out hover:shadow-lg transition duration-200 ease-in-out hover:bg-indigo-600 hover:text-white">
+                      Github
+                    </button>
+                  </div>
+                  <div class="w-full md:w-2/4 py-6 text-center">
+                    <img class="w-full md:w-4/5 z-30 p-20 pl-11" src="https://tailwindcomponents.com/svg/website-designer-bro.svg" />
+                  </div>
+              </div>
+        </div>
+    </div>
+
+    <div class="antialiased w-full h-full bg-gray-800 text-white font-inter p-10">
+        <div class="container px-4 mx-auto">
+          <div>
+            <div id="title" class="text-center my-10">
+              <h1 class="font-bold text-4xl text-white">Service Plans</h1>
+              <p class="text-light text-white text-xl">
+                Here are our service plans
+              </p>
+            </div>
+            <div
+              class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-evenly gap-10 pt-10"
+            >
+              <div
+                id="plan"
+                class="rounded-lg text-center overflow-hidden w-full transform hover:shadow-2xl hover:scale-105 transition duration-200 ease-in"
+              >
+                <div id="title" class="w-full py-5 border-b border-white">
+                  <h2 class="font-bold text-3xl text-white">Discord</h2>
+                  <h3 class="font-normal text-indigo-500 text-xl mt-2">
+                    $9<sup>,99</sup>/per project
+                  </h3>
+                </div>
+                <div id="content" class="">
+                  <div id="icon" class="my-5">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-12 w-12 mx-auto fill-stroke text-indigo-600"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1"
+                        d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                      />
+                    </svg>
+                    <p class="text-white text-sm pt-2">
+                    Bugs Free
+                    </p>
+                  </div>
+                  <div id="contain" class="leading-8 mb-10 text-lg font-light">
+                    <ul>
+                      <li>Python</li>
+                      <li>Full Customized</li>
+                      <li>Coding Support</li>
+                      <li>Hosting Guide</li>
+                    </ul>
+                    <div id="choose" class="w-full mt-10 px-6">
+                      <a
+                        href="#"
+                        class="w-full block bg-gray-900 font-medium text-xl py-4 rounded-xl hover:shadow-lg transition duration-200 ease-in-out hover:bg-indigo-600 hover:text-white"
+                        >Choose</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                id="plan"
+                class="rounded-lg text-center overflow-hidden w-full transform hover:shadow-2xl hover:scale-105 transition duration-200 ease-in"
+              >
+                <div id="title" class="w-full py-5 border-b border-white">
+                  <h2 class="font-bold text-3xl text-white">Website Development</h2>
+                  <h3 class="font-normal text-indigo-500 text-xl mt-2">
+                    $12<sup>,99</sup>/per project
+                  </h3>
+                </div>
+                <div id="content" class="">
+                  <div id="icon" class="my-5">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-12 w-12 mx-auto fill-stroke text-indigo-600"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1"
+                        d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                      />
+                    </svg>
+                    <p class="text-gray-500 text-sm pt-2">
+                      Quality Look
+                    </p>
+                  </div>
+                  <div id="contain" class="leading-8 mb-10 text-lg font-light">
+                    <ul>
+                      <li>Live Support</li>
+                      <li>1 Page Only</li>
+                      <li>Risk Free</li>
+                      <li>CloudFlare Support</li>
+                    </ul>
+                    <div id="choose" class="w-full mt-10 px-6">
+                      <a
+                        href="#"
+                        class="w-full block bg-gray-900 font-medium text-xl py-4 rounded-xl hover:shadow-lg transition duration-200 ease-in-out hover:bg-indigo-600 hover:text-white"
+                        >Choose</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                id="plan"
+                class="rounded-lg text-center overflow-hidden w-full transform hover:shadow-2xl hover:scale-105 transition duration-200 ease-in"
+              >
+                <div id="title" class="w-full py-5 border-b border-white">
+                  <h2 class="font-bold text-3xl text-white">Automation</h2>
+                  <h3 class="font-normal text-indigo-500 text-xl mt-2">
+                    $19<sup>,99</sup>/per project
+                  </h3>
+                </div>
+                <div id="content" class="">
+                  <div id="icon" class="my-5">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-12 w-12 mx-auto fill-stroke text-indigo-600"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1"
+                        d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+                      />
+                    </svg>
+                    <p class="text-gray-500 text-sm pt-2">
+                     Self Hosting
+                    </p>
+                  </div>
+                  <div id="contain" class="leading-8 mb-10 text-lg font-light">
+                    <ul>
+                      <li>Live Support</li>
+                      <li>Customized</li>
+                      <li>Any Type</li>
+                      <li>Always Online</li>
+                    </ul>
+                    <div id="choose" class="w-full mt-10 px-6">
+                      <a
+                        href="#"
+                        class="w-full block bg-gray-900 font-medium text-xl py-4 rounded-xl hover:shadow-lg transition duration-200 ease-in-out hover:bg-indigo-600 hover:text-white"
+                        >Choose</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<div class="container mx-auto">
+        <div class="rounded-lg bg-gray-800 text-white p-8 my-12 flex flex-col md:flex-row space-between items-center justify-between relative overflow-hidden">
+        
+            <div class="flex flex-col lg:ml-14 xl:ml-28 max-w-sm lg:max-w-xl z-10">
+                <h4 class="text-4xl text-center md:text-left font-bold text-white md:pb-2">
+                    You need more informations?
+                </h4>
+                <p class="text-center md:text-left text-white opacity-70 md:pb-6">
+                    Join my server to know more about me and don't forget to a send "hi" there.  
+                </p>
+                <p class="text-xs text-white hidden md:block">
+                   - Knowledge is power
+                </p>
+            </div>
+
+
+    
+            <div class="pt-8 md:pt-0 justify-center lg:ml-auto z-10">
+             
+                <a href="#"target="_blank" 
+                    class="flex items-center px-8 py-4 text-center text-sm text-black uppercase bg-white font-display rounded-full transition duration-200 hover:bg-indigo-600 hover:text-white">
+        
+                    <span>
+                        Join Discord
+                    </span>
+                </a>
+            </div>
+
+
+            <p class="pt-8 text-xs block md:hidden z-10 text-white">
+                   Made By Aayan
+            </p>
+
+           
+            <div class="absolute bg-gray-800 opacity-60 w-96 h-96 -top-10 -right-16 md:w-[800px] md:h-[800px] md:left-[45%] md:top-[-150%] rounded-full shadow-2xl z-0"></div>
+        </div>
+</div>
+
+</div>
+
+
+
+<section class="bg-gray-800">
+    <div
+         class="max-w-lg bg-gray-800 px-4 pt-24 py-8 mx-auto text-left md:max-w-none md:text-center"
+       >
+         <h1
+           class="text-3xl font-extrabold leading-10 tracking-tight text-left text-white text-center sm:leading-none md:text-6xl text-4xl lg:text-7xl"
+         >
+           <span class="inline md:block">Join My</span>
+           <span
+             class=" mt-2 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-emerald-400 to-green-500 md:inline-block"
+           > Discord<span class="bg-clip-text text-transparent bg-gradient-to-r from-teal-500 via-cyon-400 to-purple-300"> </span> Server </span>
+         </h1>
+         <div
+           class="mx-auto rounded-lg font-black mt-5 text-zinc-400 md:mt-12 md:max-w-lg text-center lg:text-lg"
+         >
+           <button class="bg-tkb border text-sm text-white py-3 px-7 rounded-full font-display transition duration-200 hover:bg-indigo-600 hover:text-white">
+           Join Now
+           </button>
+         </div>
+       </div>
+</section>
+
+<hr class="text-white mx-5" />
+<footer class="bg-black pb-5">
+<div class="max-w-screen-xl px-4 pt-8 mx-auto sm:px-6 lg:px-8">
+ <div class="sm:flex sm:items-center sm:justify-between">
+   <div class="flex justify-center text-teal-300 sm:justify-start">
+   </div>
+
+   <p class="mt-4 text-sm text-center text-gray-400 lg:text-right lg:mt-0">
+   Developed By Aayan
+   </p>
+ </div>
+</div>
+</footer>
+  </body>
+</html>
